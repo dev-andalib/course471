@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Information</title>
+</head>
+<body>
+    <form action="{{url_for('addService')}}" method="POST">
+        <label for="type"> ENTER TYPE </label>
+        <input type="text" name="type"> <br>
+        <label for="name">ENTER NAME</label>
+        <input type="text" name="name"> <br>
+        <label for="time">ENTER TIME</label>
+        <input type="datetime" name="time"><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
